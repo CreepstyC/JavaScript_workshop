@@ -1,12 +1,26 @@
 html {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #ffffff;
-    background-color: #181818;
+    color: #000;
+    background-color: #eee;
 }
 
 h1 {
     text-align: center;
     padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.error {
+    color: #eee;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: firebrick;
+    padding: 0 10px 0 10px;
+    width:  fit-content;
+    border-radius: 100px;
 }
 
 .form {
@@ -56,7 +70,7 @@ button {
     border: 0;
     font-family: 'Montserrat Alternates', sans-serif;
     border-radius: 100px;
-    transition: 0.5s ease;
+    transition: 0.4s ease;
     color: antiquewhite;
 }
 
@@ -78,4 +92,5 @@ button:hover {
     cursor: pointer;
     background-color: antiquewhite;
     color: #181818;
+    border: solid 1px;
 }
